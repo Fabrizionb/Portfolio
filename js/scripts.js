@@ -68,15 +68,15 @@ function updateNav(element)
     }
 }
 //ok para abajo
-document.querySelector(".hire-me").addEventListener("click", function () 
-{
-    const sectionIndex = this.getAttribute("data-section-index");
-    //console.log(sectionIndex)
-    showSection(this);
-    updateNav(this);
-    removeBackSection(this);
-    addBackSection(sectionIndex)
-})
+// document.querySelector(".hire-me").addEventListener("click", function () 
+// {
+//     const sectionIndex = this.getAttribute("data-section-index");
+//     //console.log(sectionIndex)
+//     showSection(this);
+//     updateNav(this);
+//     removeBackSection(this);
+//     addBackSection(sectionIndex)
+// })
 
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),

@@ -70,11 +70,11 @@
 /* .style-switcher .color-1 {
     background-color: #d71936;
 } */
-.style-switcher .color-2 {
-    background-color: #fa5b0f;
-}
 .style-switcher .color-1 {
     background-color: red;
+}
+.style-switcher .color-2 {
+    background-color: #4f3ecf;
 }
 .style-switcher .color-3 {
     background-color: #37b182;
@@ -83,5 +83,5 @@
     background-color: #1854b4;
 }
 .style-switcher .color-5 {
-    background-color: #f021b2;
+    background-color: #c576ad;
 }
