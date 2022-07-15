@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fb - Home</title>
+    <!--BOX ICONS & FAVICON-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <!-- ====CSS FILES==== -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ===STYLE SWITCHER===-->
+    <link rel="stylesheet" href="./css/skins/color-1.css" class="alternate-styles" title="color-1">
+    <link rel="stylesheet" href="./css/skins/color-2.css" class="alternate-styles" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/skins/color-3.css" class="alternate-styles" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-styles" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-styles" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+</head>
+
+
+<body>
+    <!-- ====MAIN CONTAINER START==== -->
+    <div class="main-container">
+        <!-- ====ASADIE START==== -->
+        <div class="aside">
+            <div class="logo">
+                <a href="./index.html"><span>F</span>abrizio</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>Sobre mí</a></li>
+                <!-- <li><a href="#services"><i class="fa fa-list"></i>Servicios</a></li> -->
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contacto</a></li>
+            </ul>
+        </div>
+        <!-- ====ASIDE END==== -->
+        <!-- ====MAIN CONTENT START==== -->
+        <div class="main-content">
+
+            <!-- ==== CONTACT SECTION START ==== -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contáctame</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Tienes alguna pregunta ?</h3>
+                    <!-- <h4 class="contact-sub-title padd-15"></h4> -->
+                    <div class="row">
+                        <!--=== CONTACT INFO ITEM START ===-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>WhatsApp</h4>
+                            <p>+111111</p>
+                        </div>
+                        <!--=== CONTACT INFO ITEM END ===-->
+                        <!--=== CONTACT INFO ITEM START ===-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Ciudad</h4>
+                            <p>España</p>
+                        </div>
+                        <!--=== CONTACT INFO ITEM END ===-->
+                        <!--=== CONTACT INFO ITEM START ===-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>fabrizionbertolo@gmail.com</p>
+                        </div>
+                        <!--=== CONTACT INFO ITEM END ===-->
+                        <!--=== CONTACT INFO ITEM START ===-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe"></i></div>
+                            <h4>Github</h4>
+                            <p>github.com/Fabrizionb</p>
+                        </div>
+                        <!--=== CONTACT INFO ITEM END ===-->
+                    </div>
+                    <h3 class="contact-title padd-15">Envíame un mensaje</h3>
+                    <!-- <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4> -->
+                    <!-- === CONTACT FORM ===-->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <form id="form" action="" class="form">
+                                    
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input required type="text" id="name" class="form-control" placeholder="Nombre">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input required type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea required name="" class="form-control" id="message" placeholder="Mensaje"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="mailto:fabrizionbertolo@gmail.com" id="trucazo"></a>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== CONTACT SECTION END ==== -->
+
+            <!-- ====ABOUT SECTION START==== -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Sobre mí</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Soy Fabrizio Bertolo <span>Desarrollador Web</span></h3>
+                                    <p>Soy una persona curiosa y con una gran motivación, apasionado por el desarrollo
+                                        web y la tecnología. Desde muy pequeño, mi devoción por la tecnología y los
+                                        videojuegos me llevó a indagar sobre la programación y sus lenguajes.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Fecha de Nacimiento : <span>10 jul 1985</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Edad : <span>37</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Github : <span>github.com/Fabrizionb</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>fabrizionbertolo@gmail.com</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Ciudad : <span>España</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Disponible</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Contrátame</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="tittle">Educación</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- === TimeLine item ===-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Desarrollador Full Stack</h4>
+                                                    <img src="./images/coder.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Expedición: ene. 2023 </p>
+                                                    <!-- <p class="timeline-text">ID de la credencial</p> -->
+                                                    
+                                                    <a href="#" target="_blank">En curso.</a>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Javascript</h4>
+                                                    <img src="./images/coder.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Expedición: jul. 2022 </p>
+                                                    
+                                                    <a href="https://www.coderhouse.com/certificados/62c88323985f29001951a356"
+                                                        target="_blank">Link al Certificado</a>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Desarrollo Web</h4>
+                                                    <img src="./images/coder.png" class="mb-2 expCiu rounded" alt="">
+                                                    <!-- <p class="timeline-text">ID de la credencial 6253912ebdf7960026cf9ce2</p> -->
+                                                    <p class="timeline-text">Expedición: abr. 2022 </p>
+                                                   
+                                                    <a href="https://www.coderhouse.com/certificados/6253912ebdf7960026cf9ce1"
+                                                        target="_blank">Link al Certificado</a>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Argentina Programa</h4>
+                                                    <img src="./images/gob.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Expedición: oct. 2021 </p>
+                                                    <!-- <p class="timeline-text">ID de la credencial 838548</p> -->
+                                                    
+                                                    <a href="https://mumuki.io/argentina-programa/certificates/verify/8EqZE9GJ19iX2RdX"
+                                                        target="_blank">Link al Certificado</a>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Scrum Fundamental Certified</h4>
+                                                    <img src="./images/scrum.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Expedición: abr. 2021 </p>
+                                                    <!-- <p class="timeline-text">ID de la credencial 838548</p> -->
+                                                    
+                                                    <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-FabrizioBertolo-838548.pdf"
+                                                        target="_blank">Link al Certificado</a>
+                                                        
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="tittle">Experiencia</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- === TimeLine item ===-->
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2020 - Presente
+                                                    </h3>
+                                                    <h4 class="timeline-title">Administrativo Financiero - Presidencia
+                                                    </h4>
+                                                    <br>
+                                                    <img src="./images/acumar.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Elaboración de documentación y proyectos.
+                                                        Ejecución de proyectos
+                                                        tecnológicos.</p>
+                                                </div>
+
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2018 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Administrativo Financiero - Proyectos
+                                                        Especiales</h4>
+                                                        <br>
+                                                    <img src="./images/acumar.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Ejecución administrativa de proyectos
+                                                        tecnológicos. Control de saldos y partida presupuestaria. Compra
+                                                        de
+                                                        equipamiento informático y soporte al área.</p>
+                                                </div>
+
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2017 - 2018
+                                                    </h3>
+                                                    <h4 class="timeline-title">Analista de RRHH - Subsecretaría de
+                                                        Hábitat e
+                                                        Inclusión</h4>
+                                                        <br>
+                                                    <img src="./images/gobciu.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Administración fileserver y backup,
+                                                        asignación
+                                                        de roles, altas y bajas de usuario. Mantenimiento de base de
+                                                        datos y
+                                                        administración de servidor.</p>
+                                                </div>
+
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2011 - 2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">Coordinador IT - Ministerio de Medio
+                                                        Ambiente</h4>
+                                                        <br>
+                                                    <img src="./images/gobciu.png" class="mb-2 expCiu rounded" alt="">
+                                                    <p class="timeline-text">Coordinación del equipo HelpDesk,
+                                                        mantenimiento
+                                                        del
+                                                        parque informático, instalación y mantenimiento del cableado
+                                                        estructurado, gestión de compras.</p>
+                                                        
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====ABOUT SECTION END==== -->
+            
+            <!-- ====SERVICES SECTION START==== -->
+            <!-- <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row"> -->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div v class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                        <!--=== SERVICES ITEM START ===-->
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates mollitia
+                                    sapiente?</p>
+                            </div>
+                        </div> -->
+                        <!--=== SERVICES ITEM END ===-->
+                    <!-- </div>
+                </div>
+            </section> -->
+            <!-- ====SERVICES SECTION START==== -->
+            <!-- ====PORTFOLIO SECTION START==== -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>Mis Últimos Proyectos :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--=== PORTFOLIO ITEM START ===-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://fabrizionb.github.io/GetFit/" target="_blank"><img src="./images/portfolio/portfolio-1.jpg" alt="" ></a>
+                                    <h4 class="proyectTitle">GetFit</h4>
+                                    <p>Proyecto de Desarrollo Web utilizando Bootstrap, Css, Html y Javascript</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--=== PORTFOLIO ITEM END ===-->
+                        <!--=== PORTFOLIO ITEM START ===-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://fabrizionb.github.io/Rsf-Autopartes/" target="_blank"><img src="./images/portfolio/portfolio-2.jpg" alt="" ></a>
+                                    <h4 class="proyectTitle">Rsf</h4>
+                                    <p>Desarrollo Web utilizando Bootstrap, Css, Html</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--=== PORTFOLIO ITEM END ===-->
+                        <!--=== PORTFOLIO ITEM START ===-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://fabrizionb.github.io/Leafy/" target="_blank"><img src="./images/portfolio/portfolio-3.jpg" alt="" ></a>
+                                    <h4 class="proyectTitle">Leafy</h4>
+                                    <p>Proyecto de Desarrollo Web utilizando Bootstrap, Css, Html y Sass</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--=== PORTFOLIO ITEM END ===-->
+                        
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- ==== PORTFOLIO SECTION END ==== -->
+
+
+            <!-- ====HOME SECTION START==== -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hola, mi nombre es <span class="name"> Fabrizio Bertolo</span></h3>
+                            <h3 class="my-profession">Soy  <span class="typing">web developer</span></h3>
+                            <p>Soy una persona curiosa y con una gran motivación, apasionado por el desarrollo web y la tecnología.</p>
+                            <a href="#" class="btn">Descargar CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./images/hero.jpg" alt="Main image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====HOME SECTION END==== -->
+
+        </div>
+        <!-- ====MAIN CONTENT END==== -->
+    </div>
+    <!-- ====MAIN CONTAINER END==== -->
+    <!-- ====STYLE SWITCHER START==== -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Colores de Temas</h4>
+        <div class="colors">
+            <!-- <span class="color-1" onclick='setActiveStyle("Color-1")'></span> -->
+            <span class="color-2" onclick='setActiveStyle("color-2")'></span>
+            <span class="color-1" onclick='setActiveStyle("color-1")'></span>
+            <span class="color-3" onclick='setActiveStyle("color-3")'></span>
+            <span class="color-4" onclick='setActiveStyle("color-4")'></span>
+            <span class="color-5" onclick='setActiveStyle("color-5")'></span>
+        </div>
+    </div>
+    <!-- ====STYLE SWITCHER END==== -->
+    <!-- ====JS FILES==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+    </script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/style-switcher.js"></script>
+    <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#trucazo')
+    
+        $form.addEventListener('submit', handleSubmit)
+    
+        function handleSubmit(event) {
+          event.preventDefault()
+          const form = new FormData(this)
+          $buttonMailto.setAttribute('href', `mailto:fabrizionbertolo@gmail.com?subject=${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+          $buttonMailto.click()
+        }
+      </script>
+</body>
+
+</html>
